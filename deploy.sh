@@ -8,7 +8,7 @@
 
 PORT=80
 UUID=$(cat /proc/sys/kernel/random/uuid)
-IP=$(hostname -I | cut -d' ' -f1)
+IP=$(46.101.123.111)
 CONFIGNAME="config.json"
 CONFIGLOGLEVEL='info'
 WEBSOCKETPATH='/graphql'
